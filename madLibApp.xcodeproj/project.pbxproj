@@ -14,6 +14,9 @@
 		D7DFC16C1C122D35009439F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DFC16A1C122D35009439F2 /* LaunchScreen.storyboard */; };
 		D7DFC1771C122D35009439F2 /* madLibAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC1761C122D35009439F2 /* madLibAppTests.swift */; };
 		D7DFC1821C122D35009439F2 /* madLibAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC1811C122D35009439F2 /* madLibAppUITests.swift */; };
+		D7DFC1901C122E41009439F2 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC18F1C122E41009439F2 /* firstViewController.swift */; };
+		D7DFC1921C122EB4009439F2 /* secondViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC1911C122EB4009439F2 /* secondViewerController.swift */; };
+		D7DFC1941C122EEF009439F2 /* thirdViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC1931C122EEF009439F2 /* thirdViewerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D7DFC17D1C122D35009439F2 /* madLibAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madLibAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DFC1811C122D35009439F2 /* madLibAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madLibAppUITests.swift; sourceTree = "<group>"; };
 		D7DFC1831C122D35009439F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DFC18F1C122E41009439F2 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		D7DFC1911C122EB4009439F2 /* secondViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewerController.swift; sourceTree = "<group>"; };
+		D7DFC1931C122EEF009439F2 /* thirdViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				D7DFC1611C122D35009439F2 /* AppDelegate.swift */,
 				D7DFC1631C122D35009439F2 /* ViewController.swift */,
 				D7DFC1651C122D35009439F2 /* Main.storyboard */,
+				D7DFC1931C122EEF009439F2 /* thirdViewerController.swift */,
+				D7DFC1911C122EB4009439F2 /* secondViewerController.swift */,
+				D7DFC18F1C122E41009439F2 /* firstViewController.swift */,
 				D7DFC1681C122D35009439F2 /* Assets.xcassets */,
 				D7DFC16A1C122D35009439F2 /* LaunchScreen.storyboard */,
 				D7DFC16D1C122D35009439F2 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DFC1941C122EEF009439F2 /* thirdViewerController.swift in Sources */,
 				D7DFC1641C122D35009439F2 /* ViewController.swift in Sources */,
+				D7DFC1921C122EB4009439F2 /* secondViewerController.swift in Sources */,
 				D7DFC1621C122D35009439F2 /* AppDelegate.swift in Sources */,
+				D7DFC1901C122E41009439F2 /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
