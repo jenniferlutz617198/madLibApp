@@ -9,11 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var myword = word(Noun: " " , adjective: " ", verb: " ")
     override func viewDidLoad() {
         super.viewDidLoad()
             
         }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let next = segue.destinationViewController as! secondViewerController
+        next.myword
+    }
+        
+        }
 
-}
 

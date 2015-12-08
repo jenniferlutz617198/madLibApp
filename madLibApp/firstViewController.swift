@@ -12,12 +12,8 @@ class firstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        class Madlib {
-            var noun = String(" ")
-        }
         }
         
     }
 
    
-}

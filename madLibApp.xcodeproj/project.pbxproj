@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7B5B5631C17726900FC8326 /* madLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B5B5621C17726900FC8326 /* madLib.swift */; };
 		D7DFC1621C122D35009439F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC1611C122D35009439F2 /* AppDelegate.swift */; };
 		D7DFC1641C122D35009439F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC1631C122D35009439F2 /* ViewController.swift */; };
 		D7DFC1671C122D35009439F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DFC1651C122D35009439F2 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7B5B5621C17726900FC8326 /* madLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = madLib.swift; sourceTree = "<group>"; };
 		D7DFC15E1C122D35009439F2 /* madLibApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = madLibApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DFC1611C122D35009439F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7DFC1631C122D35009439F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				D7DFC1611C122D35009439F2 /* AppDelegate.swift */,
 				D7DFC1631C122D35009439F2 /* ViewController.swift */,
+				D7B5B5621C17726900FC8326 /* madLib.swift */,
 				D7DFC1651C122D35009439F2 /* Main.storyboard */,
 				D7DFC1931C122EEF009439F2 /* thirdViewerController.swift */,
 				D7DFC1911C122EB4009439F2 /* secondViewerController.swift */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B5B5631C17726900FC8326 /* madLib.swift in Sources */,
 				D7DFC1941C122EEF009439F2 /* thirdViewerController.swift in Sources */,
 				D7DFC1641C122D35009439F2 /* ViewController.swift in Sources */,
 				D7DFC1921C122EB4009439F2 /* secondViewerController.swift in Sources */,
@@ -496,6 +500,7 @@
 				D7DFC1881C122D35009439F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7DFC1891C122D35009439F2 /* Build configuration list for PBXNativeTarget "madLibAppTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				D7DFC18B1C122D35009439F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7DFC18C1C122D35009439F2 /* Build configuration list for PBXNativeTarget "madLibAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				D7DFC18E1C122D35009439F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
